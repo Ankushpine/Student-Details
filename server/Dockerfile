@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/StudentSystem-0.0.1-SNAPSHOT.jar StudentSystem.jar
+COPY --from=build /target/Student System-0.0.1-SNAPSHOT.jar Student System.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","StudentSystem.jar"]
+ENTRYPOINT ["java","-jar","Student System.jar"]
