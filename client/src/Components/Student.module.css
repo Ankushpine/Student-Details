@@ -1,0 +1,73 @@
+.blogContainer {
+    height: auto;
+    width: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #009fff;
+    background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+    background: linear-gradient(to right, #ec2f4b, #009fff);
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputTitle {
+    width: 85vh;
+    border-radius: 4px;
+    /* font-weight: bold; */
+  }
+  
+  .inputContent {
+    height: 10vh;
+    width: 85vh;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+  
+  .buttonAdd {
+    background-color: #3c28ac;
+    padding: 0.5px 15px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  
+  .blogPost{
+    height: auto;
+    width: 100vh;
+    border: 2px solid black;
+    background: #659999;  
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  
+    background: linear-gradient(to right, #f4791f, #659999); 
+    border-radius: 20px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .buttonDelete{
+    background-color: #ac3128;
+    padding: 0.5px 15px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    left: 82%;
+    top: 10%;
+  }
+  
+  
+  h1{
+    text-align: center;
+  }
+  
+  
+  
